@@ -1,0 +1,25 @@
+
+div{
+    border: 1px solid black;
+    width: 20%;
+    height: 200px;
+    display: inline-block;
+    margin: 2%;
+    border-radius: 10px;
+}
+
+.greenBack{
+    background-color: #bdff44;
+}
+
+.shadow{
+    box-shadow: 10px 10px 10px #c2c2c2;
+}
+
+#redBack{
+    background-color: #ffd256;
+}
+
+div:first-child{
+    background-color: #83ddec;
+}

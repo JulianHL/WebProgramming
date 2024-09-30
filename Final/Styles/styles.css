@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+    font-family: "Roboto";
+    padding: 0;
+    margin: 0;
+    outline: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.title {
+    padding: 30px;
+    height: 100px;
+}
+
+.title p {
+    font-family: "Oswald";
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+    margin: 0;
+    align-content: center;
+}
+
+.title p {
+    font-family: "Oswald";
+    font-weight: 700;
+    font-size: 23px;
+    text-align: center;
+}
+
+.logIn-form div {
+    margin: 10px;
+}
+.form-control {
+    width: 250px;
+    border: 2px solid;
+    font-weight: 600;
+}
+
+.buttons {
+    border: 3px solid;
+    border-radius: 12px;
+    margin: 10px;
+    font-weight: 600;
+}
+
+/*Main Page*/
+
+.product-form div {
+    margin: 10px;
+}
+
+#save,
+#remove,
+#cancel {
+    display: none;
+}
+
+th,
+tr {
+    text-align: center;
+}
+
+.confirmation-form {
+    font-weight: 300;
+}
+
+.confirmation-form .info_title {
+    font-family: "Oswald";
+    font-weight: 700;
+}
+
+.info {
+    font-weight: 600;
+}

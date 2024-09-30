@@ -1,0 +1,21 @@
+body{
+    background-color: #222;
+    color: #eee;
+    margin-top: 20px;
+    font-famil: Arial,Helvetica Neue, Helvetica, sans-serif;
+}
+
+.thumbnails img{
+    height: 80px;
+    width: 10%;
+    border: 5px solid #555;
+    padding: 1px;
+    margin: 0px 10px 10px 0px;
+    
+}
+
+.demostration img{
+    height: 600px
+}
+
+}

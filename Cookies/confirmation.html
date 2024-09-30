@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Confirmation</title>
+        <style>
+            legend {
+                padding: 5px;
+                border: 0px;
+            }
+
+            fieldset {
+                margin: auto;
+                width: 400px;
+                border: dotted;
+                padding: 10px;
+            }
+
+            input[type="text"] {
+                border: none;
+                background-color: transparent;
+                border-bottom: ridge;
+            }
+
+            input[type="submit"],
+            button {
+                padding: 5px;
+            }
+        </style>
+        <script type="text/javascript" src="userAccount.js"></script>
+    </head>
+    <body onload="GetCookies()">
+        <form>
+            <fieldset>
+                <legend style="color: white; background-color: dimgrey; padding: 10px">
+                    <h1>Confirmation</h1>
+                </legend>
+                <label for="userid">ID(7 digit): </label>
+                <label id="userid"></label>
+                <br />
+                <br />
+                <label for="firstname">First Name: </label>
+                <label id="firstname"></label>
+                <br />
+                <br />
+                <label for="lastname">Last Name: </label>
+                <label id="lastname"></label>
+                <br />
+                <br />
+                <label for="email">Email: </label>
+                <label id="email"></label>
+                <br />
+                <br />
+                <button
+                    type="button"
+                    style="color: white; background-color: dimgrey; border: none"
+                    onclick="window.close()">
+                    Close page
+                </button>
+            </fieldset>
+        </form>
+    </body>
+</html>

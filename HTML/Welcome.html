@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <style>
+            p {
+                color: #3a043a;
+            }
+
+            h1 {
+                background-color: #881a67ea;
+                text-align: center;
+                color: #25cdc9;
+            }
+
+            h2 {
+                border-style: dotted;
+                border-width: 5px;
+                border-color: #eb583f;
+                padding: 10;
+            }
+
+            h3 {
+                width: 200px;
+                font-size: 35px;
+                border: 4px solid #d29b28;
+                border-radius: 20px;
+                padding: 30px;
+            }
+
+            h5 {
+                font-size: 50px;
+                width: 500px;
+                text-align: center;
+                background-color: #ffffff;
+                box-shadow: 5px 5px 5px #000000;
+            }
+
+            h6 {
+                font-size: 50px;
+            }
+
+            h6:hover {
+                color: #d29b28;
+                text-decoration: #c93103;
+            }
+
+            h7 {
+                font-size: 50px;
+            }
+
+            a {
+                color: #d84960;
+                text-decoration: none;
+            }
+            a:visited {
+                color: #8e78ca;
+            }
+            img {
+                width: 500px;
+                border: 5px solid #27044e;
+                border-radius: 20px;
+                padding: 10px;
+                transition:
+                    border-color 0.5s,
+                    margin-left 0.5s,
+                    width 0.5s;
+            }
+
+            img:hover {
+                width: 600px;
+                border-color: #56c6df;
+            }
+        </style>
+    </head>
+    <body>
+        <p>This is a paragraph</p>
+        <h1>I Love Computer Science</h1>
+        <h2>I hate to eat vegetables</h2>
+        <h3>why not fashion design</h3>
+        <h4>I prefer other teacher than Alex</h4>
+        <h5>We are the best</h5>
+        <h6>NOT chicken</h6>
+        <h6>Click the image below to go to vanier website :)</h6>
+        <br /><br />
+        <a href="https://www.vaniercollege.qc.ca" target="_blank">
+            <img src="vanier.jpg" />
+        </a>
+        <br /><br />
+        <form action="https://www.vaniercollege.qc.ca" target="_blank">
+            <input type="text" placeholder="Name" />
+            <select>
+                <option>Spring</option>
+                <option>Summer</option>
+                <option>Fall</option>
+                <option>winter</option>
+            </select>
+            <fieldset>
+                <legend>Internet programming</legend>
+                <label><input type="checkbox" />CSS</label>
+                <label><input type="checkbox" />HTML</label>
+                <label><input type="radio" />JavaScript</label>
+            </fieldset>
+
+            <input type="reset" />
+            <input type="submit" />
+        </form>
+    </body>
+</html>

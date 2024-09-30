@@ -1,0 +1,168 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+header {
+    background-image: url("/Midterm/imagens/banner/1.jpg");
+    background-size: cover;
+    height: 650px;
+    width: 100vw;
+    color: #ffff;
+    position: relative;
+    display: block;
+    margin-bottom: 60px;
+    box-sizing: border-box;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffff;
+    margin: 0 10px;
+}
+
+header .home {
+    font-size: 30px;
+    margin: 10px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header li {
+    align-content: center;
+    transition: background-color 0.8s;
+}
+
+header a:hover {
+    cursor: pointer;
+}
+
+header li:hover {
+    background-color: #dc021c;
+}
+
+header div {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    align-content: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+    text-shadow: 0 5px 4px rgba(0, 0, 0, 0.8);
+    font-weight: 700;
+}
+
+main {
+    text-align: center;
+    width: 100vw;
+}
+main .title {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+main h2 {
+    font-size: 50px;
+    border-top: solid #dc021c;
+    width: fit-content;
+    padding: 10px 40px;
+}
+
+main .menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+main .menu h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+main .menu div {
+    margin: 0 30px;
+}
+main .menu ul {
+    list-style: none;
+    margin: 10px;
+}
+
+main .menu ul li {
+    margin: 10px;
+}
+
+main .dishes {
+    box-sizing: border-box;
+    margin-bottom: 60px;
+}
+
+main .dishes .outer_section {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+main .dishes .outer_section div {
+    width: 30%;
+    margin: 5px;
+}
+
+main .dishes .outer_section div img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    background-size: cover;
+    background-color: #2e2e2e;
+    height: 80px;
+    width: 100vw;
+    text-align: center;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+footer a {
+    padding: 10px;
+    text-decoration: none;
+    color: #2e2e2e;
+    height: 40px;
+    align-content: center;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    background-color: #d6d6d6;
+    transition:
+        color 0.5s,
+        background-color 0.5s,
+        font-size 0.9s;
+}
+
+footer a:hover {
+    color: #ffff;
+    background-color: #dc021c;
+    cursor: pointer;
+    font-size: 17px;
+}

@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font: 20px sans-serif;
+}
+
+body{
+display: flex;
+    justify-content: center;
+}
+
+form fieldset{
+    border-radius: 10px;
+}
+
+form fieldset label{
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
+    box-sizing: border-box;
+}
+
+form fieldset input{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+form fieldset button{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box; 
+}
+
+form fieldset legend{
+    background-color: #00000033;
+    border-radius: 5px;
+    margin: 0px 30px;
+    box-sizing: border-box;
+}
+
+form fieldset legend h1{
+    font-size: 40px;
+    color: #000000;
+    padding: 10px;
+    font-weight: 200;
+}
+
